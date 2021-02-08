@@ -1,0 +1,16 @@
+{
+  "name": "cvoid/faker",
+  "description": "create faker data",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "require": {
+    "php": ">=7.4|^8.0",
+    "ext-json": "*",
+    "yzalis/identicon": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Fake\\": "src"
+    }
+  }
+}
