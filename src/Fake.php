@@ -32,11 +32,11 @@ class Fake
 
     /**
      * get self instance
-     * @return Fake
+     * @return $this
      */
-    public static function instance(): Fake
+    public static function instance()
     {
-        return self::$fake ?? new self;
+        return self::$fake ?? new static();
     }
 
     /**
