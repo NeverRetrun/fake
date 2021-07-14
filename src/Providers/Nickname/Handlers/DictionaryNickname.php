@@ -15,7 +15,7 @@ class DictionaryNickname implements ProviderInterface
 
     public function output()
     {
-        return $this->dictionary[random_int(0, count($this->dictionary))];
+        return $this->dictionary[random_int(0, count($this->dictionary) - 1)];
     }
 
     /**
